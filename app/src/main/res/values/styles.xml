@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Team Card -->
+    <style name="TeamCard" parent="CardView">
+        <item name="cardBackgroundColor">@color/ilia_grey_500</item>
+        <item name="cornerRadius">1dp</item>
+        <item name="elevation">10dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="maxLines">10</item>
+    </style>
+
+    <!-- Login Buttons -->
+    <style name="LoginButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/ilia_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">@font/comfortaa_light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Login Inputs -->
+    <style name="LoginInput" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/ilia_blue</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">@font/comfortaa_light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

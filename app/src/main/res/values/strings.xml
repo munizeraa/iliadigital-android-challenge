@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IliaChallenge</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign_in_short">Sign in</string>
+    <string name="header_logoff">Logout</string>
+    <string name="list_teams">Team Results</string>
+    <string name="button_ok">Ok</string>
+    <string name="ok">Ok</string>
+</resources>

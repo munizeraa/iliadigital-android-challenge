@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_logout"
+        android:layout_height="35dp"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/ilia_background_app"
+        android:fontFamily="@font/comfortaa_light"
+        android:textColor="@color/ilia_blue"
+        android:text="Logout"
+        android:textSize="9sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="12dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/header_card"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_margin="6dp"
+        android:backgroundTint="@color/ilia_background_app"
+        app:layout_constraintTop_toBottomOf="@id/btn_logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/header_username"
+                android:text="Philippe Muniz Gomes"
+                android:textColor="@color/ilia_blue"
+                android:layout_marginLeft="16dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/comfortaa_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/header_age"
+                android:text="Age 29"
+                android:textColor="@color/ilia_blue"
+                android:layout_marginLeft="16dp"
+                android:textSize="13sp"
+                android:fontFamily="@font/comfortaa_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_username" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/header_gender"
+                android:text="Gender: MALE"
+                android:textColor="@color/ilia_blue"
+                android:layout_marginLeft="16dp"
+                android:textSize="13sp"
+                android:fontFamily="@font/comfortaa_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_age"/>
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
