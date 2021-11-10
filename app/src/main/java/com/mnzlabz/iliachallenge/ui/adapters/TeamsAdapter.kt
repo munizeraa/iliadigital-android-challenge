@@ -36,6 +36,7 @@ class TeamsAdapter(): RecyclerView.Adapter<TeamViewHolder>() {
 class TeamViewHolder(private val binding: TeamListItemBinding) : RecyclerView.ViewHolder(binding.root) {
     fun bind(item: Team) {
         binding.name.text = item.name
+        binding.city.text = item.city
         binding.description.text = item.description
         binding.conference.text = item.conference
 
